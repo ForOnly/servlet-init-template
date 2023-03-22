@@ -2,7 +2,10 @@
 
 ### 介绍
 
-一个原生servlet-jsp的web项目初始化模板,导入了lombok功能（日志实现为logback）,
+一个原生servlet-jsp的web项目初始化模板
+
+集成了lombok功能（日志实现为logback）, <br>
+导入了alibaba的fastjson，<br>
 因为是servlet-jsp项目，所以使用的是war包模式，方便快速修改静态资源，快速部署
 
 ### 快速开始
