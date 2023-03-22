@@ -1,0 +1,30 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd"
+        [<!ENTITY
+                servlet-conf SYSTEM  "servlet-conf.xml">]
+        >
+
+<!-- web.xml DOC： https://docs.oracle.com/cd/E13222_01/wls/docs81/webapp/web_xml.html -->
+<web-app>
+    <display-name>servlet-init-template</display-name>
+    <description>A servlet init template</description>
+
+    <filter>
+        <filter-name>DemoFilter</filter-name>
+        <filter-class>com.foronly.template.servlet.filter.DemoFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>DemoFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <servlet>
+        <servlet-name>DemoServlet</servlet-name>
+        <servlet-class>com.foronly.template.servlet.servlet.DemoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DemoServlet</servlet-name>
+        <url-pattern>/demo</url-pattern>
+    </servlet-mapping>
+</web-app>
