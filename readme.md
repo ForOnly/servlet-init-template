@@ -15,7 +15,7 @@ git clone git@github.com:ForOnly/servlet-init-template.git
 
 > 配置tomcat
 
-此处介绍Idea的Tomcat配置介绍
+此处介绍Idea的Tomcat配置介绍(前提是本地已安装Tomcat，并已在Idea集成)
 
 - 从右上角进入到Edit Configuration的页面
 - 新建一个配置
