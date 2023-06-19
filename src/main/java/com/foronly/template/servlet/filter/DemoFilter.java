@@ -1,6 +1,5 @@
 package com.foronly.template.servlet.filter;
 
-import lombok.extern.java.Log;
 import lombok.extern.slf4j.Slf4j;
 
 import javax.servlet.*;
